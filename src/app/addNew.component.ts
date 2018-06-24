@@ -38,3 +38,4 @@ export class AddNewData{
         this.addedData.push(formContainer);
                             
 }
+}
