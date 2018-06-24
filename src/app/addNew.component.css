@@ -1,0 +1,34 @@
+.formStyle{
+    background-color: dimgrey;
+    
+}
+.form-group label{
+    display:inline-block;
+    margin:10px;
+    width:100px;
+}
+.formStyle button{
+    margin:20px;
+}
+.rowHeader{
+    background-color:#0A1150;
+    color:white;
+}
+.rowData{
+    background-color:white;
+}
+.rowHeader span{
+    margin: 10px;
+    width: 12%;
+    display: inline-block;
+    word-wrap: break-word;
+}
+.rowData span{
+    margin: 10px;
+    width: 12%;
+    display: inline-block;
+    word-wrap: break-word;
+}
+.showAddedData{
+    margin-top:20px;
+}

@@ -1,0 +1,43 @@
+<form [formGroup]="addDataForm" (ngSubmit)=onSubmit() class="formStyle">
+    
+        <div class="form-group">
+          <label >CityName:</label>
+          <input formControlName="city" type="text" id="city">    
+          <span *ngIf="addDataForm.get('city').errors?.required">*</span>    
+        </div>
+        <div class="form-group">
+          <label >Temprature:</label>
+          <input formControlName="temprature" type="text" id="temprature">    
+          <span *ngIf="addDataForm.get('temprature').errors?.required">*</span>
+        </div>
+        <div class="form-group">
+          <label >Humidity:</label>
+          <input formControlName="humidity" type="text" id="humidity">    
+          <span *ngIf="addDataForm.get('humidity').errors?.required">*</span>
+        </div>
+        <div class="form-group">
+          <label >weather:</label>
+          <input formControlName="weather" type="text" id="weather">    
+          <span *ngIf="addDataForm.get('weather').errors?.required">*</span>
+        </div>
+     
+    
+   
+    <button  type="submit">Submit</button>
+</form>   
+<div class="showAddedData" *ngIf="addedData.length>0">
+        <div class="rowHeader">
+                <span>City</span>
+                <span>weather</span>
+                <span>Temprature</span>
+                <span>Humidity</span>
+                
+        </div>
+        <div class="rowData" *ngFor="let data of addedData">
+            <span>{{data.city}}</span>
+            <span>{{data.weather}}</span>
+            <span>{{data.temprature}}</span>
+            <span>{{data.humidity}}</span>
+           
+        </div>
+ </div>

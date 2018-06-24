@@ -1,0 +1,19 @@
+.forecastHeader{
+    background-color:#0A1150;
+    color:white;
+}
+.forecastContainer{
+    background-color:white;
+}
+.forecastHeader span{
+    margin: 10px;
+    width: 12%;
+    display: inline-block;
+    word-wrap: break-word;
+}
+.forecastContainer span{
+    margin: 10px;
+    width: 12%;
+    display: inline-block;
+    word-wrap: break-word;
+}

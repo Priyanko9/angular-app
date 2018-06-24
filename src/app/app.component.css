@@ -1,0 +1,45 @@
+.show{
+    display:block;
+    background-color:white;
+    width:152px;
+}
+.hide{
+    display:none;
+}
+.currentWeather{
+    width: 90%;
+    height: auto;
+    background-color: lightgrey;
+    padding:25px;
+}
+.autocompleteCountries{
+    width:150px;
+    outline:none;
+}
+.autocompleteCities{
+    width:150px;
+    outline:none;
+}
+.margin_20{
+    margin:20px;
+}
+.countryBlock{
+   width: 200px;
+   margin: 20px;
+   padding: 5px; 
+}
+.cityBlock{
+   width: 200px;
+   margin: 20px;
+   padding: 5px; 
+}
+.routers{
+    
+    
+}
+.routers a{
+    margin:10px;
+    font-size: large;
+    font-weight: bold;
+    color: teal;
+}

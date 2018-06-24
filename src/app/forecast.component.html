@@ -1,0 +1,21 @@
+<div class="forecastHeader">
+        <span>City</span>
+        <span>weather</span>
+        <span>Humidity</span>
+        <span>Temprature</span>
+        <span>Temrature_Minimum </span>
+        <span>Temrature_Maxmum</span>
+        <span>Date</span>
+</div>
+<div *ngFor="let data of forecastData">
+     
+    <div class="forecastContainer">
+        <span>{{city}}</span>
+        <span>{{data.weather}}</span>
+        <span>{{data.humidity}}</span>
+        <span>{{data.temp}}</span>
+        <span>{{data.temp_min}}</span>
+        <span>{{data.temp_max}}</span>
+        <span>{{data.date | date}}</span>
+    </div>
+</div>
